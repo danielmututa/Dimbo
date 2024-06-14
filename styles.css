@@ -1,0 +1,2216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  src: url("Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+header .octopus-truck {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("images/image_downloader_1716830313870[1].jpg");
+  width: 100%;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header .octopus-truck .topbtwn {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+header .octopus-truck .topbtwn .logo p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  color: white;
+}
+header .octopus-truck .topbtwn .navbar .lists a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+header .octopus-truck .topbtwn .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .octopus-truck .topbtwn .menu .menuone {
+  color: white;
+  font-size: 20px;
+}
+header .octopus-truck .topbtwn .menu p {
+  margin-left: 8px;
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+  color: white;
+}
+header .octopus-truck p {
+  margin-bottom: 0px;
+}
+header .octopus-truck .bottombwtn {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+header .octopus-truck .bottombwtn .contact-us p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+}
+header .octopus-truck .bottombwtn .actourservices p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+  color: white;
+}
+
+#about {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#about .truck-contact {
+  border-radius: 40px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#about .truck-contact .truck .Samsung {
+  width: 600px;
+  height: 400px;
+}
+#about p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+}
+#about .redlight {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#about .redlight .one {
+  padding-top: 15px;
+}
+#about .redligh2 {
+  font-size: 23px;
+}
+#about h2 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 40px;
+}
+#about .connectus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#service {
+  background-color: #f5f5f5;
+  padding-top: 92px;
+  padding-bottom: 97px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#service h2 {
+  font-size: 40px;
+  padding-bottom: 40px;
+  color: black;
+  font-weight: 600;
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  margin-left: 20px;
+}
+#service .card {
+  transition: 1s;
+  background-color: white;
+  color: black;
+  margin: 6px;
+}
+#service .card:hover {
+  box-shadow: 0px 3px 3px 3px rgba(129, 129, 129, 0.2);
+}
+#service .card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#service .card-body .out {
+  font-weight: 600;
+  color: rgb(173, 37, 37);
+  font-size: 20px;
+}
+#service .card-body .outin {
+  font-size: 25px;
+  font-weight: 700;
+}
+#service .card-img-top {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#service .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+#service h5 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  color: orange;
+}
+#service .line {
+  width: 70px;
+  border: 1px solid orangered;
+}
+#service style {
+  display: inline-block;
+  margin: 3px;
+}
+#service .circle {
+  width: 8px;
+  border: 8px solid white;
+  border-radius: 50px;
+}
+#service .first-page {
+  display: flex;
+}
+#service .second-page {
+  display: flex;
+}
+#service .third-project {
+  display: flex;
+}
+#service p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-weight: 400;
+  line-height: 1.3;
+  font-weight: 500;
+}
+#service .carousel-indicators {
+  margin-bottom: 0px;
+  bottom: -61px;
+}
+#service .carousel-indicators .opacity {
+  margin-left: 10px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: #000000;
+}
+
+.colar-truck {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.colar-truck img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100vh;
+}
+.colar-truck .first-page {
+  display: flex;
+}
+
+#testmonials {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+#testmonials h2 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 40px;
+}
+#testmonials .companies {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#testmonials h3 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 25px;
+}
+#testmonials p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 18px;
+}
+#testmonials .circle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+#testmonials .continental, #testmonials .toyota {
+  width: 40%;
+}
+#testmonials .lotoyota {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30%;
+}
+#testmonials .logcontinental {
+  width: 44%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#testmonials .smile {
+  padding-top: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+#testmonials .smile .jo-p {
+  padding-left: 20px;
+}
+#testmonials .smile .jo-p .nyc {
+  padding-top: 10px;
+}
+#testmonials .para1 {
+  padding-top: 20px;
+}
+
+#cntat {
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+#cntat .head {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#cntat .head h2 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 30px;
+}
+#cntat .head p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-top: 8px;
+  font-size: 18px;
+}
+#cntat .twoforms {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#cntat .twoforms .input-contact {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 15px;
+  width: 305px;
+  font-size: 18px;
+}
+#cntat .form-message .textmessage {
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 15px 15px 100px 15px;
+  width: 640px;
+  border: none;
+  font-size: 18px;
+}
+#cntat .enter {
+  padding-top: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+#cntat .enter .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: rgba(134, 130, 126, 0.8078431373);
+  width: 80px;
+}
+#cntat .enter .button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.footer {
+  padding-top: 30px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+}
+.footer .line1 {
+  position: absolute;
+  width: 700px;
+  border: 1px solid white;
+}
+.footer .scc {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .alldtls {
+  width: 700px;
+}
+.footer .logo {
+  display: flex;
+  justify-content: center;
+}
+.footer .logo p {
+  font-size: 40px;
+}
+.footer h5 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+.footer .site {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .site p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  line-height: 1.8;
+}
+.footer .careers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .careers p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  line-height: 1.8;
+}
+.footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .contact p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  line-height: 1.8;
+}
+.footer .contact h5 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+}
+.footer .line2 {
+  right: 120px;
+  border: 1px solid white;
+  position: absolute;
+  width: 1112px;
+}
+.footer .copy {
+  display: flex;
+  justify-content: center;
+}
+.footer .copy p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+header .monochrome-truck {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("images/image_downloader_1716830313870[1].jpg");
+  width: 100%;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header .monochrome-truck .topbtwn {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+header .monochrome-truck .topbtwn .menu p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+  color: white;
+}
+header .monochrome-truck .topbtwn .logo p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  color: white;
+}
+header .monochrome-truck .topbtwn .navbar .lists a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+header .monochrome-truck .bottombwtn {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+header .monochrome-truck .bottombwtn .contact-us p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-weight: 600;
+  color: white;
+  font-size: 40px;
+}
+header .monochrome-truck .bottombwtn .actourservices p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+  color: white;
+}
+
+#services {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f5f5f5;
+}
+#services .truck-contact {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#services .truck-contact .truck {
+  display: flex;
+  justify-content: center;
+}
+#services .truck-contact .truck .img {
+  height: 100%;
+  width: 70%;
+}
+#services p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 18px;
+}
+#services h2 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-left: 69px;
+  font-size: 40px;
+}
+#services .connectus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#services .email1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+#services .email1 .com {
+  display: flex;
+}
+#services .contact {
+  display: flex;
+}
+#services .email2 {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+#services .email2 .com {
+  display: flex;
+}
+#services .icon {
+  font-size: 20px;
+  padding-right: 15px;
+}
+#services .truck .phone {
+  width: 450px;
+  height: 540px;
+}
+
+#contact {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#contact .head {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#contact .head h2 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 40px;
+}
+#contact .head p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-top: 8px;
+  font-size: 18px;
+}
+#contact .twoforms {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#contact .twoforms .input-contact {
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 0px;
+  padding: 15px;
+  width: 305px;
+  font-size: 18px;
+}
+#contact .form-message .textmessage {
+  background-color: #f5f5f5;
+  border-radius: 0px;
+  padding: 15px 15px 100px 15px;
+  width: 640px;
+  border: none;
+  font-size: 18px;
+}
+#contact .enter {
+  padding-top: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+#contact .enter p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-right: 5px;
+  font-size: 18px;
+}
+#contact .enter .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: rgba(134, 130, 126, 0.8078431373);
+  width: 80px;
+}
+#contact .enter .button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+}
+.footer .line1 {
+  position: absolute;
+  width: 700px;
+  border: 1px solid white;
+}
+.footer .scc {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .alldtls {
+  width: 700px;
+}
+.footer .logo {
+  display: flex;
+  justify-content: center;
+}
+.footer h5 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+.footer .site p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  line-height: 1.8;
+}
+.footer .careers p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  line-height: 1.8;
+}
+.footer .contact p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  line-height: 1.8;
+}
+.footer .contact h5 {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer .line2 {
+  right: 120px;
+  border: 1px solid white;
+  position: absolute;
+  width: 1112px;
+}
+.footer .copy {
+  display: flex;
+  justify-content: center;
+}
+.footer .copy p {
+  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.hammenu .overlay {
+  height: 125vh;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.hammenu .menu {
+  color: white;
+  font-size: 25px;
+}
+.hammenu .overlay-content {
+  position: relative;
+  top: 22%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.hammenu .overlay a {
+  font-weight: 400;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.hammenu .overlay a:hover, .hammenu .overlay a:focus {
+  color: #f1f1f1;
+}
+.hammenu .overlay .closebtn {
+  position: absolute;
+  top: -27px;
+  right: 12px;
+  font-size: 60px;
+}
+.hammenu span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  padding-top: 6px;
+}
+.hammenu .logo {
+  position: absolute;
+  width: 100%;
+}
+.hammenu .logo p {
+  padding-top: 12px;
+  padding-left: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 951px) {
+  .hammenu {
+    display: none;
+  }
+}
+@media (max-width: 578px) {
+  .hamenu .logo {
+    position: absolute;
+  }
+  header .octopus-truck {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  header .octopus-truck .bottombwtn {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .octopus-truck .bottombwtn .contact-us p {
+    font-size: 13px;
+  }
+  header .octopus-truck .bottombwtn .actourservices p {
+    font-size: 12px;
+  }
+  header .octopus-truck .contact-us {
+    font-size: 14px;
+  }
+  header .octopus-truck .actourservices {
+    font-size: 12px;
+  }
+  header .octopus-truck .topbtwn {
+    display: none;
+  }
+  #about {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  #about .truck-contact {
+    padding-bottom: 25px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #about .truck-contact .truck .Samsung {
+    width: 100%;
+  }
+  #about h3 {
+    font-size: 18px;
+  }
+  #about h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  #about .redlight {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #about p {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  #service {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  #service h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #service .card {
+    margin: 0px;
+    width: 98%;
+  }
+  #service .card img {
+    height: 32vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .card-body {
+    padding: 5px;
+  }
+  #service .card-body .out {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  #service .card-body .outin {
+    font-size: 12px;
+  }
+  #service .carousel-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service .carousel-indicators {
+    display: none;
+  }
+  .colar-truck {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  .colar-truck img {
+    height: 36vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #testmonials {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #testmonials h2 {
+    font-size: 25px;
+    text-align: right;
+    margin-bottom: 0px;
+  }
+  #testmonials p {
+    font-size: 12px;
+  }
+  #testmonials .circle {
+    height: 55px;
+    width: 55px;
+  }
+  #testmonials h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  #testmonials .companies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #testmonials .continental, #testmonials .toyota {
+    width: 100%;
+  }
+  #testmonials .para1 {
+    padding-top: 10px;
+  }
+  #testmonials .smile {
+    padding-top: 0px;
+  }
+  #cntat {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+    padding-top: 25px;
+  }
+  #cntat .head h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  #cntat .head p {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  #cntat .twoforms {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  #cntat .twoforms .input-contact {
+    width: 174px;
+    font-size: 12px;
+  }
+  #cntat .form-message .textmessage {
+    font-size: 12px;
+    width: 354px;
+  }
+  #cntat .enter {
+    padding-top: 10px;
+  }
+  #cntat .enter .button {
+    transition: 0.5s;
+    width: 100%;
+  }
+  #cntat .enter .button a {
+    padding: 7px;
+  }
+  #cntat .enter .button:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer .logo p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .footer .copy p {
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer .scc {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .footer h5 {
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+  .footer p {
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .footer .site {
+    margin-left: 10px;
+  }
+  .footer .contact {
+    margin-right: 10px;
+  }
+  .footer .contact h5 {
+    font-size: 15px;
+  }
+  .footer .line1 {
+    width: 375px;
+  }
+  .footer .line2 {
+    right: 0px;
+  }
+}
+@media (min-width: 579px) and (max-width: 768px) {
+  .hammenu .logo p {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .hammenu span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    padding-top: 6px;
+  }
+  .hammenu .menu {
+    font-size: 25px;
+  }
+  header .octopus-truck {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 56vh;
+  }
+  header .octopus-truck .bottombwtn {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header .octopus-truck .bottombwtn .contact-us p {
+    font-size: 15px;
+  }
+  header .octopus-truck .bottombwtn .actourservices p {
+    font-size: 13px;
+  }
+  header .octopus-truck .contact-us {
+    font-size: 14px;
+  }
+  header .octopus-truck .actourservices {
+    font-size: 12px;
+  }
+  header .octopus-truck .topbtwn {
+    display: none;
+  }
+  #about {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  #about .truck-contact {
+    padding-bottom: 25px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #about .truck-contact .truck .Samsung {
+    width: 100%;
+  }
+  #about h3 {
+    font-size: 21px;
+  }
+  #about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  #about .redlight {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #about p {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  #service {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  #service h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #service .card {
+    margin: 0px;
+    width: 98%;
+  }
+  #service .card img {
+    height: 32vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .card-body {
+    padding: 5px;
+  }
+  #service .card-body .out {
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+  #service .card-body .outin {
+    font-size: 13px;
+  }
+  #service .carousel-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service .carousel-indicators {
+    display: none;
+  }
+  .colar-truck {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  .colar-truck img {
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #testmonials {
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #testmonials h2 {
+    font-size: 28px;
+    text-align: right;
+    margin-bottom: 0px;
+  }
+  #testmonials p {
+    font-size: 13px;
+  }
+  #testmonials .circle {
+    height: 55px;
+    width: 55px;
+  }
+  #testmonials h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  #testmonials .companies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #testmonials .continental, #testmonials .toyota {
+    width: 100%;
+  }
+  #testmonials .para1 {
+    margin-bottom: 13px;
+    padding-top: 10px;
+  }
+  #testmonials .smile {
+    padding-top: 0px;
+  }
+  #testmonials .smile .jo-p .nyc {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  #cntat {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+    padding-top: 25px;
+  }
+  #cntat .head h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  #cntat .head p {
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+  #cntat .twoforms {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  #cntat .twoforms .input-contact {
+    padding: 18px;
+    width: 347px;
+    font-size: 13px;
+  }
+  #cntat .form-message .textmessage {
+    font-size: 13px;
+    width: 706px;
+  }
+  #cntat .enter {
+    padding-top: 10px;
+  }
+  #cntat .enter .button {
+    transition: 0.5s;
+    width: 100%;
+  }
+  #cntat .enter .button a {
+    font-size: 13px;
+    padding: 12px;
+  }
+  #cntat .enter .button:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer .logo p {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .footer .copy p {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer .scc {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .footer h5 {
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+  .footer p {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .footer .contact h5 {
+    font-size: 18px;
+  }
+  .footer .line2 {
+    right: 0px;
+  }
+}
+@media (min-width: 769px) and (max-width: 950px) {
+  .hammenu .logo p {
+    padding-left: 30px;
+    font-size: 22px;
+  }
+  .hammenu span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    padding-top: 6px;
+  }
+  .hammenu .menu {
+    font-size: 25px;
+  }
+  header .octopus-truck {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 56vh;
+  }
+  header .octopus-truck .bottombwtn {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header .octopus-truck .bottombwtn .contact-us p {
+    font-size: 18px;
+  }
+  header .octopus-truck .bottombwtn .actourservices p {
+    font-size: 15px;
+  }
+  header .octopus-truck .contact-us {
+    font-size: 14px;
+  }
+  header .octopus-truck .actourservices {
+    font-size: 12px;
+  }
+  header .octopus-truck .topbtwn {
+    display: none;
+  }
+  #about {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  #about .truck-contact {
+    padding-bottom: 25px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #about .truck-contact .truck .Samsung {
+    width: 100%;
+  }
+  #about h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  #about h2 {
+    font-size: 31px;
+    margin-bottom: 10px;
+  }
+  #about .redlight {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #about p {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  #service {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  #service h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 31px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #service .card {
+    margin: 0px;
+    width: 98%;
+  }
+  #service .card img {
+    height: 32vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .card-body {
+    padding: 5px;
+  }
+  #service .card-body .out {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  #service .card-body .outin {
+    font-size: 15px;
+  }
+  #service .carousel-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service .carousel-indicators {
+    display: none;
+  }
+  .colar-truck {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  .colar-truck img {
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #testmonials {
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #testmonials h2 {
+    font-size: 31px;
+    text-align: right;
+    margin-bottom: 0px;
+  }
+  #testmonials p {
+    font-size: 15px;
+  }
+  #testmonials .circle {
+    height: 55px;
+    width: 55px;
+  }
+  #testmonials h3 {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  #testmonials .companies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #testmonials .continental, #testmonials .toyota {
+    width: 100%;
+  }
+  #testmonials .para1 {
+    margin-bottom: 16px;
+    padding-top: 13px;
+  }
+  #testmonials .smile {
+    padding-top: 0px;
+  }
+  #testmonials .smile .jo-p .nyc {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  #cntat {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+    padding-top: 25px;
+  }
+  #cntat .head h2 {
+    font-size: 31px;
+    margin-bottom: 0px;
+  }
+  #cntat .head p {
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+  #cntat .twoforms {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  #cntat .twoforms .input-contact {
+    padding: 18px;
+    width: 347px;
+    font-size: 15px;
+  }
+  #cntat .form-message .textmessage {
+    font-size: 15px;
+    width: 706px;
+  }
+  #cntat .enter {
+    padding-top: 10px;
+  }
+  #cntat .enter .button {
+    transition: 0.5s;
+    width: 100%;
+  }
+  #cntat .enter .button a {
+    font-size: 15px;
+    padding: 12px;
+  }
+  #cntat .enter .button:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer .logo p {
+    font-size: 31px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .footer .copy p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer .scc {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .footer h5 {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+  .footer p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .footer .contact h5 {
+    font-size: 24px;
+  }
+  .footer .line2 {
+    right: 0px;
+  }
+}
+@media (min-width: 951px) and (max-width: 1024px) {
+  header .octopus-truck {
+    height: 42vh;
+  }
+  header .octopus-truck .topbtwn .logo p {
+    font-size: 20px;
+  }
+  header .octopus-truck .bottombwtn .contact-us p {
+    font-size: 21px;
+  }
+  header .octopus-truck .bottombwtn .actourservices p {
+    font-size: 18px;
+  }
+  #about .truck-contact {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  #about .truck-contact .truck .Samsung {
+    width: 373px;
+    height: 400px;
+  }
+  #about .redlight {
+    padding-top: 0px;
+    padding-bottom: 4px;
+  }
+  #about h2 {
+    font-size: 34px;
+    margin-bottom: 0px;
+  }
+  #about p {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  #about h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  #service {
+    padding-top: 72px;
+    padding-bottom: 83px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+  #service h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 31px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  #service .card {
+    margin: 0px;
+    width: 98%;
+  }
+  #service .card img {
+    height: 32vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .card-body {
+    padding: 5px;
+  }
+  #service .card-body .out {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  #service .card-body .outin {
+    font-size: 15px;
+  }
+  #service .carousel-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .colar-truck {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  .colar-truck img {
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #testmonials {
+    padding-top: 40px;
+  }
+  #testmonials h2 {
+    margin-bottom: 0px;
+    font-size: 34px;
+  }
+  #testmonials h3 {
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  #testmonials .companies {
+    padding-bottom: 50px;
+    padding-top: 15px;
+  }
+  #testmonials .companies .para1 {
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+  #testmonials .companies .smile .jo-p .nyc {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  #cntat .head h2 {
+    font-size: 34px;
+  }
+  .footer .logo p {
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+  .footer .scc {
+    padding-bottom: 20px;
+    padding-top: 36px;
+  }
+  .footer .copy p {
+    margin-bottom: 0px;
+  }
+  .footer .line2 {
+    right: 50px;
+    width: 906px;
+  }
+}
+@media (min-width: 1800px) {
+  header .octopus-truck .topbtwn .logo p {
+    font-size: 25px;
+  }
+  header .octopus-truck .topbtwn .navbar .lists a {
+    font-size: 20px;
+  }
+  header .octopus-truck .bottombwtn .contact-us p {
+    font-size: 45px;
+  }
+  header .octopus-truck .bottombwtn .actourservices p {
+    font-size: 22px;
+  }
+  #about h2 {
+    font-size: 45px;
+  }
+  #about p {
+    font-size: 22px;
+  }
+  #about .connectus {
+    width: 52%;
+  }
+  #about .truck-contact .truck .Samsung {
+    width: 700px;
+    height: 450px;
+  }
+  #service h2 {
+    font-size: 45px;
+  }
+  #testmonials h2 {
+    font-size: 45px;
+  }
+  #testmonials p {
+    font-size: 22px;
+  }
+  #cntat .head h2 {
+    font-size: 45px;
+  }
+  #cntat .head p {
+    font-size: 22px;
+  }
+  #cntat .twoforms .input-contact {
+    width: 49%;
+  }
+  #cntat .form-message .textmessage {
+    width: 100%;
+  }
+  .footer .logo p {
+    font-size: 45px;
+  }
+  .footer h5 {
+    font-size: 25px;
+  }
+  .footer p {
+    font-size: 18px;
+  }
+  .footer .contact p {
+    font-size: 18px;
+  }
+  .footer .contact h5 {
+    font-size: 25px;
+  }
+  .footer .line2 {
+    width: 1559px;
+  }
+}
+@media (max-width: 578px) {
+  .hammenu .logo {
+    position: absolute;
+  }
+  .hammenu .overlay .closebtn {
+    position: absolute;
+    top: -27px;
+    right: 6px;
+    font-size: 52px;
+  }
+  .hammenu .overlay-content {
+    top: 18%;
+  }
+  header .monochrome-truck {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 40vh;
+  }
+  header .monochrome-truck .bottombwtn {
+    padding-bottom: 30px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .monochrome-truck .bottombwtn .contact-us p {
+    font-size: 13px;
+  }
+  header .monochrome-truck .bottombwtn .actourservices p {
+    font-size: 12px;
+  }
+  header .monochrome-truck .contact-us {
+    font-size: 14px;
+  }
+  header .monochrome-truck .actourservices {
+    font-size: 12px;
+  }
+  header .monochrome-truck .topbtwn {
+    display: none;
+  }
+  #services {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+  #services p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  #services .icon {
+    padding-right: 5px;
+    font-size: 15px;
+  }
+  #services .email2 {
+    padding-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #services .email1 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #services h2 {
+    font-size: 25px;
+    padding-left: 0px;
+  }
+  #services .truck-contact {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  #contact {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #contact .head h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  #contact .head p {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  #contact .twoforms {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  #contact .twoforms .input-contact {
+    width: 174px;
+    font-size: 12px;
+  }
+  #contact .form-message .textmessage {
+    font-size: 12px;
+    width: 354px;
+  }
+  #contact .enter {
+    padding-top: 10px;
+  }
+  #contact .enter .button {
+    transition: 0.5s;
+    width: 100%;
+  }
+  #contact .enter .button a {
+    padding: 7px;
+  }
+  #contact .enter .button:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer .line1 {
+    width: 373px;
+  }
+}
+@media (min-width: 579px) and (max-width: 768px) {
+  .hammenu .logo {
+    position: absolute;
+  }
+  .hammenu .overlay .closebtn {
+    position: absolute;
+    top: -27px;
+    right: 6px;
+    font-size: 52px;
+  }
+  .hammenu .overlay-content {
+    top: 18%;
+  }
+  header .monochrome-truck {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 40vh;
+  }
+  header .monochrome-truck .bottombwtn {
+    padding-bottom: 30px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header .monochrome-truck .bottombwtn .contact-us p {
+    font-size: 15px;
+  }
+  header .monochrome-truck .bottombwtn .actourservices p {
+    font-size: 13px;
+  }
+  header .monochrome-truck .contact-us {
+    font-size: 15px;
+  }
+  header .monochrome-truck .actourservices {
+    font-size: 12px;
+  }
+  header .monochrome-truck .topbtwn {
+    display: none;
+  }
+  #services {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+  #services p {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  #services .icon {
+    padding-right: 5px;
+    font-size: 15px;
+  }
+  #services .email2 {
+    padding-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #services .email1 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #services h2 {
+    margin-bottom: 16px;
+    font-size: 28px;
+    padding-left: 0px;
+  }
+  #services .connectus {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #services .truck-contact {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+  }
+  #services .truck-contact .truck {
+    width: 334px;
+    height: 540px;
+  }
+  #contact {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+    padding-top: 25px;
+  }
+  #contact .head h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  #contact .head p {
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+  #contact .twoforms {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  #contact .twoforms .input-contact {
+    padding: 18px;
+    width: 347px;
+    font-size: 13px;
+  }
+  #contact .form-message .textmessage {
+    font-size: 13px;
+    width: 706px;
+  }
+  #contact .enter {
+    padding-top: 10px;
+  }
+  #contact .enter .button {
+    transition: 0.5s;
+    width: 100%;
+  }
+  #contact .enter .button a {
+    font-size: 13px;
+    padding: 12px;
+  }
+  #contact .enter .button:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+  }
+}
+@media (min-width: 769px) and (max-width: 950px) {
+  .hammenu .logo {
+    position: absolute;
+  }
+  .hammenu .overlay .closebtn {
+    position: absolute;
+    top: -27px;
+    right: 6px;
+    font-size: 52px;
+  }
+  .hammenu .overlay-content {
+    top: 18%;
+  }
+  header .monochrome-truck {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 40vh;
+  }
+  header .monochrome-truck .bottombwtn {
+    padding-bottom: 30px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header .monochrome-truck .bottombwtn .contact-us p {
+    font-size: 18px;
+  }
+  header .monochrome-truck .bottombwtn .actourservices p {
+    font-size: 15px;
+  }
+  header .monochrome-truck .contact-us {
+    font-size: 15px;
+  }
+  header .monochrome-truck .actourservices {
+    font-size: 12px;
+  }
+  header .monochrome-truck .topbtwn {
+    display: none;
+  }
+  #services {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+  #services p {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  #services .icon {
+    padding-right: 5px;
+    font-size: 15px;
+  }
+  #services .email2 {
+    padding-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #services .email1 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #services h2 {
+    margin-bottom: 16px;
+    font-size: 31px;
+    padding-left: 0px;
+  }
+  #services .connectus {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #services .truck-contact {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+  }
+  #services .truck-contact .truck {
+    width: 334px;
+    height: 540px;
+  }
+  #contact {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+    padding-top: 25px;
+  }
+  #contact .head h2 {
+    font-size: 31px;
+    margin-bottom: 0px;
+  }
+  #contact .head p {
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+  #contact .twoforms {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  #contact .twoforms .input-contact {
+    padding: 18px;
+    width: 347px;
+    font-size: 15px;
+  }
+  #contact .form-message .textmessage {
+    font-size: 15px;
+    width: 706px;
+  }
+  #contact .enter {
+    padding-top: 10px;
+  }
+  #contact .enter .button {
+    transition: 0.5s;
+    width: 100%;
+  }
+  #contact .enter .button a {
+    font-size: 15px;
+    padding: 12px;
+  }
+  #contact .enter .button:hover {
+    background-color: rgba(50, 205, 50, 0.8);
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer .logo p {
+    font-size: 31px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .footer .copy p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer .scc {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .footer h5 {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+  .footer p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .footer .contact h5 {
+    font-size: 24px;
+  }
+  .footer .line2 {
+    right: 0px;
+  }
+}
+@media (min-width: 951px) and (max-width: 1024px) {
+  header .monochrome-truck {
+    height: 42vh;
+  }
+  header .monochrome-truck .topbtwn .logo p {
+    font-size: 20px;
+  }
+  header .monochrome-truck .bottombwtn .contact-us p {
+    font-size: 21px;
+  }
+  header .monochrome-truck .bottombwtn .actourservices p {
+    font-size: 18px;
+  }
+  #services {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+  }
+  #services p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  #services .icon {
+    padding-right: 5px;
+    font-size: 15px;
+  }
+  #services .email2 {
+    padding-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #services .email1 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #services h2 {
+    margin-bottom: 22px;
+    font-size: 34px;
+    padding-left: 0px;
+  }
+  #services .connectus {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #services .truck-contact {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+  }
+  #services .truck-contact .truck {
+    width: 410px;
+    height: 540px;
+  }
+  #contact .twoforms {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  #contact .head h2 {
+    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-size: 34px;
+  }
+}
+@media (min-width: 1800px) {
+  header .monochrome-truck .logo p {
+    font-size: 25px;
+  }
+  header .monochrome-truck .navbar .lists a {
+    font-size: 20px;
+  }
+  header .monochrome-truck .bottombwtn .actourservices p {
+    font-size: 22px;
+  }
+  header .monochrome-truck .bottombwtn .contact-us p {
+    font-size: 45px;
+  }
+  #services p {
+    font-size: 22px;
+  }
+  #services h2 {
+    font-size: 45px;
+  }
+}
+#contact .head h2 {
+  font-size: 45px;
+}
+#contact .head p {
+  font-size: 22px;
+}
+#contact .twoforms .input-contact {
+  width: 49%;
+}
+#contact .form-message .textmessage {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
