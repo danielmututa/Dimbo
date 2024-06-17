@@ -2,11 +2,43 @@
     margin: 0px;
     padding: 0px;
 }
+// roboto
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("Roboto-Bold.ttf");
+}
 
 @font-face {
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-    src: url("Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+    font-family: "Roboto-Regular";
+    src: url("Roboto-Regular.ttf");
 }
+
+// end roboto
+
+
+// montrerrat
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("Montserrat-Regular.ttf");
+}
+//  end montrerrat
+
+
+// Baloo
+@font-face {
+    font-family: "Baloo-Regular";
+    src: url("Baloo-Regular.ttf");
+}
+//  end Baloo
+
+// Josefinsas
+@font-face {
+    font-family: "JosefinSans-Regular";
+    src: url("JosefinSans-Regular.ttf");
+}
+// end Josefinsas
+
+
 
 
 
@@ -127,17 +159,20 @@ header{
 
     .logo{
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "Baloo-Regular";
             color: white;
+            font-size: 22px;
         }
     }
     .navbar{
         .lists{
             a{
-                font-weight: 600;
+                font-family: "Baloo-Regular";
+                font-weight: 400;
                 color: white;
                 text-decoration: none;
                 margin-left: 25px;
+                font-size: 20px;
             }
         }
     }
@@ -176,19 +211,36 @@ p{
     justify-content: space-between;
     .contact-us{
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-            font-weight: 600;
+            font-family: "Baloo-Regular";
+            font-weight: 400;
             color: white;
             font-size: 30px;
+            text-decoration: none;
         }
 
     }
     .actourservices{
+        display: flex;
+        align-items: flex-end;
+       
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "JosefinSans-Regular";
             font-size: 20px;
             color: white;
+            text-decoration: none;
+           .one{
+            font-weight: 900;
+            transition: 0.5;
+            color: white;
+           }
+            
+           .one:hover{
+            color:orange;
+
+            
+           }
         }
+
     }
 }
 
@@ -220,7 +272,7 @@ p{
         }
     }
 p{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "JosefinSans-Regular";
     font-size: 20px;
 }
 .redlight{
@@ -236,8 +288,12 @@ p{
    
 }
 h2{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "Baloo-Regular";
     font-size: 40px;
+}
+h3{
+    font-size: 25px;
+    font-family: "Baloo-Regular";
 }
     .connectus{
         display: flex;
@@ -261,7 +317,7 @@ h2{
      padding-bottom: 40px;
      color: black;
      font-weight: 600;
-     font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+     font-family: "Baloo-Regular";
      margin-left: 20px;
    } 
 
@@ -280,13 +336,15 @@ h2{
     flex-direction: column;
     align-items: center;
     .out{
+        font-family: "Roboto-Regular";
         font-weight: 600;
         color: rgb(173, 37, 37);
             font-size: 20px;
+            text-decoration: line-through;
         
     }
     .outin{
-        
+        font-family: "Roboto-Bold";
             font-size: 25px;
         font-weight: 700;
     }
@@ -303,7 +361,7 @@ h2{
     }
 
 h5{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "Baloo-Regular";
     color: orange;
 }
 .line{
@@ -402,7 +460,7 @@ align-items: center;
 padding-top: 60px;
 
     h2{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "Baloo-Regular";
         font-size: 40px;
     }
 
@@ -410,18 +468,20 @@ padding-top: 60px;
         display: flex;
         align-items: flex-end;
         justify-content: space-evenly;
-        padding-top: 70px;
+        padding-top: 5px;
         padding-bottom: 70px;
        
 
     }
-    h3{font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    h3{ font-family: "Baloo-Regular";
         font-size: 25px;
+        margin-bottom: 0px;
     }
     p{
        
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "JosefinSans-Regular";
         font-size: 18px;
+        
     }
     .circle{
         height: 70px;
@@ -431,14 +491,7 @@ padding-top: 60px;
     .continental,.toyota{
         width: 40%;
     }
-    .lotoyota{
-        object-fit: cover;
-        width: 30%;
-    }
-    .logcontinental{
-        width: 44%;
-        object-fit: cover;
-    }
+    
     .smile{
         padding-top: 20px;
         justify-content: flex-start;
@@ -448,7 +501,7 @@ padding-top: 60px;
 
             padding-left: 20px;
             .nyc{
-                padding-top: 10px;
+                padding-top: 2px;
             }
         }
     }
@@ -477,17 +530,17 @@ padding-top: 60px;
     justify-content: center;
     display: flex;
         h2{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-            font-size: 30px;
+            font-family: "Baloo-Regular";
+            font-size: 40px;
         }
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "JosefinSans-Regular";
             padding-top: 8px;
             font-size: 18px;
         }
     }
     .twoforms{
-        padding-top: 30px;
+        padding-top: 15px;
         padding-bottom: 10px;
         display: flex;
         justify-content: space-between;
@@ -498,6 +551,7 @@ padding-top: 60px;
         padding: 15px;
         width: 305px;
         font-size: 18px;
+        font-family: "JosefinSans-Regular";
        } 
     }
 
@@ -511,6 +565,7 @@ padding-top: 60px;
             width: 640px;
             border: none;
 font-size: 18px;
+font-family: "JosefinSans-Regular";
         }
     }
    .enter{
@@ -526,6 +581,7 @@ font-size: 18px;
         background-color:#86827ece;
         width: 80px;
         a{
+            font-family: "JosefinSans-Regular";
             text-decoration: none;
             color: black;
             font-weight: 600;
@@ -564,11 +620,12 @@ color: #f5f5f5;
     display: flex;
     justify-content: center;
     p{
+        font-family: "Baloo-Regular";
         font-size: 40px;
     }
 }
 h5{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "Baloo-Regular";
     padding-bottom: 12px;
     font-size: 20px;
 }
@@ -578,7 +635,7 @@ justify-content: flex-start;
 align-items: center;
 flex-direction: column;
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "JosefinSans-Regular";
         line-height: 1.8;
     }
 }
@@ -588,7 +645,7 @@ justify-content: flex-start;
 align-items: center;
 flex-direction: column;
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "JosefinSans-Regular";
         line-height: 1.8;
     }
 }
@@ -598,10 +655,10 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "JosefinSans-Regular";
         line-height: 1.8;
     }
-    h5{font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    h5{ font-family: "Baloo-Regular";
         font-size: 20px;
       
     }
@@ -617,7 +674,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "JosefinSans-Regular";
         padding-bottom: 25px;
         padding-top: 25px;
         font-size: 18px;
@@ -763,17 +820,20 @@ header{
     }
     .logo{
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "Baloo-Regular";
             color: white;
+            font-size: 22px;
         }
     }
     .navbar{
         .lists{
             a{
-                font-weight: 600;
+                font-family: "Baloo-Regular";
+                font-weight: 400;
                 color: white;
                 text-decoration: none;
                 margin-left: 25px;
+                font-size: 20px;
             }
         }
     }
@@ -793,8 +853,8 @@ header{
     justify-content: space-between;
     .contact-us{
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-            font-weight: 600;
+            font-family: "Baloo-Regular";
+            font-weight: 400;
             color: white;
             font-size: 40px;
         }
@@ -802,7 +862,7 @@ header{
     }
     .actourservices{
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "JosefinSans-Regular";
             font-size: 20px;
             color: white;
         }
@@ -843,11 +903,11 @@ header{
     }
     
 p{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "JosefinSans-Regular";
     font-size: 18px;
 }
 h2{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "Baloo-Regular";
     padding-left: 69px;
     font-size: 40px;
 }
@@ -906,17 +966,17 @@ h2{
     justify-content: center;
     display: flex;
         h2{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "Baloo-Regular";
             font-size: 40px;
         }
         p{
-            font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+            font-family: "JosefinSans-Regular";
             padding-top: 8px;
             font-size: 18px;
         }
     }
     .twoforms{
-        padding-top: 30px;
+        padding-top: 15px;
         padding-bottom: 10px;
         display: flex;
         justify-content: space-between;
@@ -927,6 +987,7 @@ h2{
         padding: 15px;
         width: 305px;
         font-size: 18px;
+        font-family: "JosefinSans-Regular";
        } 
     }
 
@@ -940,6 +1001,7 @@ h2{
             width: 640px;
             border: none;
 font-size: 18px;
+font-family: "JosefinSans-Regular";
         }
     }
    .enter{
@@ -965,6 +1027,7 @@ font-size: 18px;
             font-weight: 600;
             padding: 5px;
             font-size: 16px;
+            font-family: "JosefinSans-Regular";
         }
     }
 
@@ -998,29 +1061,29 @@ color: #f5f5f5;
     justify-content: center;
 }
 h5{
-    font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+    font-family: "Baloo-Regular";
     padding-bottom: 12px;
     font-size: 20px;
 }
 .site{
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-        line-height: 1.8;
+        font-family: "JosefinSans-Regular";
+        line-height: 1.6;
     }
 }
 .careers{
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-        line-height: 1.8;
+        font-family: "JosefinSans-Regular";
+        line-height: 1.6;
     }
 }
 .contact{
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-        line-height: 1.8;
+        font-family: "JosefinSans-Regular";
+        line-height: 1.6;
     }
     h5{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "Baloo-Regular";
         font-size: 20px;
         display: flex;
         justify-content: center;
@@ -1037,7 +1100,7 @@ h5{
     display: flex;
     justify-content: center;
     p{
-        font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+        font-family: "JosefinSans-Regular";
         padding-bottom: 25px;
         padding-top: 25px;
         font-size: 18px;
@@ -1080,8 +1143,8 @@ h5{
       }
       
       .overlay a {
-       
-        font-weight: 400;
+        font-family: "Montserrat-Regular";
+        font-weight: 600;
         padding: 8px;
         text-decoration: none;
         font-size: 30px;
@@ -1168,11 +1231,12 @@ header{
         justify-content: center;
         flex-direction: row;
         align-items: flex-end;
-    
+    height: 40vh;
         .bottombwtn{
             width: 100%;
             padding-left: 10px;
             padding-right: 10px;
+            padding-bottom: 15px;
             .contact-us{
                 p{
                     font-size: 13px;
@@ -1180,6 +1244,10 @@ header{
                
             }
             .actourservices{
+                align-items: end;
+                justify-content: center;
+                display: flex;
+        
                 p{
                     font-size: 12px;
                 }
@@ -1207,14 +1275,14 @@ header{
 #about{
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding-left: 0px;
     padding-right: 0px;
    overflow: hidden;
    .truck-contact{
-    padding-bottom: 25px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
     display: flex;
     flex-direction: column;
     .truck{
@@ -1245,8 +1313,8 @@ header{
 #service{
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     overflow: hidden;
     h2{
         display: flex;
@@ -1287,8 +1355,8 @@ header{
 
 
 .colar-truck{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     overflow: hidden;
     img{
         height: 36vh;
@@ -1302,8 +1370,8 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 h2{
     font-size: 25px;
     text-align: right;
@@ -1345,8 +1413,9 @@ h3{
     // margin-left: 10px;
     // margin-right: 10px;
     overflow: hidden;
-    margin-top: 25px;
-    padding-top: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     .head{
         h2{
             font-size: 25px;
@@ -1393,6 +1462,7 @@ background-color: rgb(50 205 50 / 80%);
 
 
 .footer{
+    padding-top: 30px;
 // display: none;
    overflow: hidden;
    .logo{
@@ -1464,7 +1534,18 @@ background-color: rgb(50 205 50 / 80%);
             font-size: 25px;
         }
             
-            
+        .overlay-content {
+            top: 12%;
+        }
+        
+        .overlay{
+            .closebtn {
+                position: absolute;
+                top: -21px;
+                right: 18px;
+                font-size: 52px;
+            }
+        } 
 
     }
         
@@ -1475,7 +1556,7 @@ background-color: rgb(50 205 50 / 80%);
                 justify-content: center;
                 flex-direction: row;
                 align-items: flex-end;
-            height: 56vh;
+            height: 40vh;
                 .bottombwtn{
                     width: 100%;
                     padding-left: 30px;
@@ -1783,7 +1864,18 @@ background-color: rgb(50 205 50 / 80%);
             font-size: 25px;
         }
             
-            
+        .overlay-content {
+            top: 11%;
+        }
+        
+        .overlay{
+            .closebtn {
+                position: absolute;
+                top: -21px;
+                right: 18px;
+                font-size: 52px;
+            }
+        } 
 
     }
         
@@ -1794,7 +1886,7 @@ background-color: rgb(50 205 50 / 80%);
                 justify-content: center;
                 flex-direction: row;
                 align-items: flex-end;
-            height: 56vh;
+            height: 48vh;
                 .bottombwtn{
                     width: 100%;
                     padding-left: 30px;
@@ -2398,9 +2490,10 @@ width: 100%;
 
             .closebtn {
                 position: absolute;
-                top: -27px;
-        right: 6px;
+                top: -26px;
+                right: 6px;
         font-size: 52px;
+        font-weight: 600;
             }
         } 
 
@@ -2430,15 +2523,20 @@ header{
             width: 100%;
             padding-left: 10px;
             padding-right: 10px;
+            padding-bottom: 15px;
             .contact-us{
                 p{
                     font-size: 13px;
+                    margin-bottom: 0px;
                 }
                
             }
             .actourservices{
+                
                 p{
+                    
                     font-size: 12px;
+                    margin-bottom: 0px;
                 }
                 
             }
@@ -2474,7 +2572,7 @@ header{
     font-size: 15px;
    }
    .email2{
-    padding-bottom: 12px;
+    padding-bottom: 2px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -2498,6 +2596,9 @@ header{
    }
 }
 
+
+
+
 #contact{
     padding-left: 10px;
     padding-right: 10px;
@@ -2507,6 +2608,9 @@ header{
     margin-top: 0px;
     padding-top: 20px;
     padding-bottom: 30px;
+
+
+
     .head{
         h2{
             font-size: 25px;
@@ -2517,6 +2621,9 @@ header{
             font-size: 12px;
         }
     }
+
+    
+
     .twoforms{
        padding-top: 10px;
        padding-bottom: 7px;
@@ -2568,21 +2675,20 @@ background-color: rgb(50 205 50 / 80%);
         .logo{
             position: absolute ;
         }
+        .overlay-content {
+            top: 12%;
+        }
+        
         .overlay{
-
             .closebtn {
                 position: absolute;
-                top: -27px;
-        right: 6px;
-        font-size: 52px;
+                top: -21px;
+                right: 18px;
+                font-size: 52px;
             }
         } 
 
-        .overlay-content {
-            
-            top: 18%;
-            
-          }
+       
 
         }
 
@@ -2762,17 +2868,25 @@ background-color: rgb(50 205 50 / 80%);
 
             .closebtn {
                 position: absolute;
-                top: -27px;
-        right: 6px;
+                top: -22px;
+                right: 17px;
         font-size: 52px;
             }
         } 
 
         .overlay-content {
             
-            top: 18%;
+            top: 11%;
             
           }
+
+          .closebtn {
+            position: absolute;
+            top: -21px;
+            right: 18px;
+            font-size: 52px;
+        }
+
 
         }
 
@@ -3092,7 +3206,7 @@ height: 42vh;
 
 }
 
-@media (min-width:1800px){
+@media only screen and  (min-width:1800px){
 
 header{
 
@@ -3137,8 +3251,6 @@ header{
 }
 
 
-}
-
 #contact{
     .head{
         h2{
@@ -3162,5 +3274,19 @@ width: 100%;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 
 // END ABOUT//////////////////////////////////////////////////////////////

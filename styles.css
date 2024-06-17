@@ -4,8 +4,24 @@
 }
 
 @font-face {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  src: url("Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+  font-family: "Roboto-Bold";
+  src: url("Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Baloo-Regular";
+  src: url("Baloo-Regular.ttf");
+}
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url("JosefinSans-Regular.ttf");
 }
 header .octopus-truck {
   display: flex;
@@ -27,14 +43,17 @@ header .octopus-truck .topbtwn {
   justify-content: space-between;
 }
 header .octopus-truck .topbtwn .logo p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   color: white;
+  font-size: 22px;
 }
 header .octopus-truck .topbtwn .navbar .lists a {
-  font-weight: 600;
+  font-family: "Baloo-Regular";
+  font-weight: 400;
   color: white;
   text-decoration: none;
   margin-left: 25px;
+  font-size: 20px;
 }
 header .octopus-truck .topbtwn .menu {
   display: flex;
@@ -62,15 +81,29 @@ header .octopus-truck .bottombwtn {
   justify-content: space-between;
 }
 header .octopus-truck .bottombwtn .contact-us p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  font-weight: 600;
+  font-family: "Baloo-Regular";
+  font-weight: 400;
   color: white;
   font-size: 30px;
+  text-decoration: none;
+}
+header .octopus-truck .bottombwtn .actourservices {
+  display: flex;
+  align-items: flex-end;
 }
 header .octopus-truck .bottombwtn .actourservices p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   font-size: 20px;
   color: white;
+  text-decoration: none;
+}
+header .octopus-truck .bottombwtn .actourservices p .one {
+  font-weight: 900;
+  transition: 0.5;
+  color: white;
+}
+header .octopus-truck .bottombwtn .actourservices p .one:hover {
+  color: orange;
 }
 
 #about {
@@ -91,7 +124,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   height: 400px;
 }
 #about p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   font-size: 20px;
 }
 #about .redlight {
@@ -105,8 +138,12 @@ header .octopus-truck .bottombwtn .actourservices p {
   font-size: 23px;
 }
 #about h2 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   font-size: 40px;
+}
+#about h3 {
+  font-size: 25px;
+  font-family: "Baloo-Regular";
 }
 #about .connectus {
   display: flex;
@@ -126,7 +163,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   padding-bottom: 40px;
   color: black;
   font-weight: 600;
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   margin-left: 20px;
 }
 #service .card {
@@ -145,11 +182,14 @@ header .octopus-truck .bottombwtn .actourservices p {
   align-items: center;
 }
 #service .card-body .out {
+  font-family: "Roboto-Regular";
   font-weight: 600;
   color: rgb(173, 37, 37);
   font-size: 20px;
+  text-decoration: line-through;
 }
 #service .card-body .outin {
+  font-family: "Roboto-Bold";
   font-size: 25px;
   font-weight: 700;
 }
@@ -163,7 +203,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   justify-content: space-between;
 }
 #service h5 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   color: orange;
 }
 #service .line {
@@ -230,22 +270,23 @@ header .octopus-truck .bottombwtn .actourservices p {
   padding-top: 60px;
 }
 #testmonials h2 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   font-size: 40px;
 }
 #testmonials .companies {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
-  padding-top: 70px;
+  padding-top: 5px;
   padding-bottom: 70px;
 }
 #testmonials h3 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   font-size: 25px;
+  margin-bottom: 0px;
 }
 #testmonials p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   font-size: 18px;
 }
 #testmonials .circle {
@@ -255,16 +296,6 @@ header .octopus-truck .bottombwtn .actourservices p {
 }
 #testmonials .continental, #testmonials .toyota {
   width: 40%;
-}
-#testmonials .lotoyota {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 30%;
-}
-#testmonials .logcontinental {
-  width: 44%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 #testmonials .smile {
   padding-top: 20px;
@@ -276,7 +307,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   padding-left: 20px;
 }
 #testmonials .smile .jo-p .nyc {
-  padding-top: 10px;
+  padding-top: 2px;
 }
 #testmonials .para1 {
   padding-top: 20px;
@@ -298,16 +329,16 @@ header .octopus-truck .bottombwtn .actourservices p {
   display: flex;
 }
 #cntat .head h2 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  font-size: 30px;
+  font-family: "Baloo-Regular";
+  font-size: 40px;
 }
 #cntat .head p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   padding-top: 8px;
   font-size: 18px;
 }
 #cntat .twoforms {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
@@ -319,6 +350,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   padding: 15px;
   width: 305px;
   font-size: 18px;
+  font-family: "JosefinSans-Regular";
 }
 #cntat .form-message .textmessage {
   background-color: #ffffff;
@@ -327,6 +359,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   width: 640px;
   border: none;
   font-size: 18px;
+  font-family: "JosefinSans-Regular";
 }
 #cntat .enter {
   padding-top: 18px;
@@ -343,6 +376,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   width: 80px;
 }
 #cntat .enter .button a {
+  font-family: "JosefinSans-Regular";
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -377,10 +411,11 @@ header .octopus-truck .bottombwtn .actourservices p {
   justify-content: center;
 }
 .footer .logo p {
+  font-family: "Baloo-Regular";
   font-size: 40px;
 }
 .footer h5 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   padding-bottom: 12px;
   font-size: 20px;
 }
@@ -391,7 +426,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   flex-direction: column;
 }
 .footer .site p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   line-height: 1.8;
 }
 .footer .careers {
@@ -401,7 +436,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   flex-direction: column;
 }
 .footer .careers p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   line-height: 1.8;
 }
 .footer .contact {
@@ -411,11 +446,11 @@ header .octopus-truck .bottombwtn .actourservices p {
   flex-direction: column;
 }
 .footer .contact p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   line-height: 1.8;
 }
 .footer .contact h5 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   font-size: 20px;
 }
 .footer .line2 {
@@ -429,7 +464,7 @@ header .octopus-truck .bottombwtn .actourservices p {
   justify-content: center;
 }
 .footer .copy p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   padding-bottom: 25px;
   padding-top: 25px;
   font-size: 18px;
@@ -460,14 +495,17 @@ header .monochrome-truck .topbtwn .menu p {
   color: white;
 }
 header .monochrome-truck .topbtwn .logo p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   color: white;
+  font-size: 22px;
 }
 header .monochrome-truck .topbtwn .navbar .lists a {
-  font-weight: 600;
+  font-family: "Baloo-Regular";
+  font-weight: 400;
   color: white;
   text-decoration: none;
   margin-left: 25px;
+  font-size: 20px;
 }
 header .monochrome-truck .bottombwtn {
   padding-bottom: 50px;
@@ -477,13 +515,13 @@ header .monochrome-truck .bottombwtn {
   justify-content: space-between;
 }
 header .monochrome-truck .bottombwtn .contact-us p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  font-weight: 600;
+  font-family: "Baloo-Regular";
+  font-weight: 400;
   color: white;
   font-size: 40px;
 }
 header .monochrome-truck .bottombwtn .actourservices p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   font-size: 20px;
   color: white;
 }
@@ -510,11 +548,11 @@ header .monochrome-truck .bottombwtn .actourservices p {
   width: 70%;
 }
 #services p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   font-size: 18px;
 }
 #services h2 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   padding-left: 69px;
   font-size: 40px;
 }
@@ -567,16 +605,16 @@ header .monochrome-truck .bottombwtn .actourservices p {
   display: flex;
 }
 #contact .head h2 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   font-size: 40px;
 }
 #contact .head p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   padding-top: 8px;
   font-size: 18px;
 }
 #contact .twoforms {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
@@ -588,6 +626,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
   padding: 15px;
   width: 305px;
   font-size: 18px;
+  font-family: "JosefinSans-Regular";
 }
 #contact .form-message .textmessage {
   background-color: #f5f5f5;
@@ -596,6 +635,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
   width: 640px;
   border: none;
   font-size: 18px;
+  font-family: "JosefinSans-Regular";
 }
 #contact .enter {
   padding-top: 18px;
@@ -622,6 +662,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
   font-weight: 600;
   padding: 5px;
   font-size: 16px;
+  font-family: "JosefinSans-Regular";
 }
 
 .footer {
@@ -650,24 +691,24 @@ header .monochrome-truck .bottombwtn .actourservices p {
   justify-content: center;
 }
 .footer h5 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   padding-bottom: 12px;
   font-size: 20px;
 }
 .footer .site p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  line-height: 1.8;
+  font-family: "JosefinSans-Regular";
+  line-height: 1.6;
 }
 .footer .careers p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  line-height: 1.8;
+  font-family: "JosefinSans-Regular";
+  line-height: 1.6;
 }
 .footer .contact p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
-  line-height: 1.8;
+  font-family: "JosefinSans-Regular";
+  line-height: 1.6;
 }
 .footer .contact h5 {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "Baloo-Regular";
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -683,7 +724,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
   justify-content: center;
 }
 .footer .copy p {
-  font-family: "Montserrat/Montserrat-Italic-VariableFont_wght";
+  font-family: "JosefinSans-Regular";
   padding-bottom: 25px;
   padding-top: 25px;
   font-size: 18px;
@@ -713,7 +754,8 @@ header .monochrome-truck .bottombwtn .actourservices p {
   margin-top: 30px;
 }
 .hammenu .overlay a {
-  font-weight: 400;
+  font-family: "Montserrat-Regular";
+  font-weight: 600;
   padding: 8px;
   text-decoration: none;
   font-size: 30px;
@@ -765,14 +807,21 @@ header .monochrome-truck .bottombwtn .actourservices p {
     justify-content: center;
     flex-direction: row;
     align-items: flex-end;
+    height: 40vh;
   }
   header .octopus-truck .bottombwtn {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 15px;
   }
   header .octopus-truck .bottombwtn .contact-us p {
     font-size: 13px;
+  }
+  header .octopus-truck .bottombwtn .actourservices {
+    align-items: end;
+    justify-content: center;
+    display: flex;
   }
   header .octopus-truck .bottombwtn .actourservices p {
     font-size: 12px;
@@ -789,15 +838,15 @@ header .monochrome-truck .bottombwtn .actourservices p {
   #about {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding-left: 0px;
     padding-right: 0px;
     overflow: hidden;
   }
   #about .truck-contact {
-    padding-bottom: 25px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
     display: flex;
     flex-direction: column;
   }
@@ -822,8 +871,8 @@ header .monochrome-truck .bottombwtn .actourservices p {
   #service {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     overflow: hidden;
   }
   #service h2 {
@@ -861,8 +910,8 @@ header .monochrome-truck .bottombwtn .actourservices p {
     display: none;
   }
   .colar-truck {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     overflow: hidden;
   }
   .colar-truck img {
@@ -877,8 +926,8 @@ header .monochrome-truck .bottombwtn .actourservices p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #testmonials h2 {
     font-size: 25px;
@@ -916,8 +965,9 @@ header .monochrome-truck .bottombwtn .actourservices p {
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
-    margin-top: 25px;
-    padding-top: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
   }
   #cntat .head h2 {
     font-size: 25px;
@@ -953,6 +1003,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
     background-color: rgba(50, 205, 50, 0.8);
   }
   .footer {
+    padding-top: 30px;
     overflow: hidden;
   }
   .footer .logo p {
@@ -1009,13 +1060,22 @@ header .monochrome-truck .bottombwtn .actourservices p {
   .hammenu .menu {
     font-size: 25px;
   }
+  .hammenu .overlay-content {
+    top: 12%;
+  }
+  .hammenu .overlay .closebtn {
+    position: absolute;
+    top: -21px;
+    right: 18px;
+    font-size: 52px;
+  }
   header .octopus-truck {
     overflow: hidden;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: flex-end;
-    height: 56vh;
+    height: 40vh;
   }
   header .octopus-truck .bottombwtn {
     width: 100%;
@@ -1258,13 +1318,22 @@ header .monochrome-truck .bottombwtn .actourservices p {
   .hammenu .menu {
     font-size: 25px;
   }
+  .hammenu .overlay-content {
+    top: 11%;
+  }
+  .hammenu .overlay .closebtn {
+    position: absolute;
+    top: -21px;
+    right: 18px;
+    font-size: 52px;
+  }
   header .octopus-truck {
     overflow: hidden;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: flex-end;
-    height: 56vh;
+    height: 48vh;
   }
   header .octopus-truck .bottombwtn {
     width: 100%;
@@ -1692,9 +1761,10 @@ header .monochrome-truck .bottombwtn .actourservices p {
   }
   .hammenu .overlay .closebtn {
     position: absolute;
-    top: -27px;
+    top: -26px;
     right: 6px;
     font-size: 52px;
+    font-weight: 600;
   }
   .hammenu .overlay-content {
     top: 18%;
@@ -1712,12 +1782,15 @@ header .monochrome-truck .bottombwtn .actourservices p {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 15px;
   }
   header .monochrome-truck .bottombwtn .contact-us p {
     font-size: 13px;
+    margin-bottom: 0px;
   }
   header .monochrome-truck .bottombwtn .actourservices p {
     font-size: 12px;
+    margin-bottom: 0px;
   }
   header .monochrome-truck .contact-us {
     font-size: 14px;
@@ -1744,7 +1817,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
     font-size: 15px;
   }
   #services .email2 {
-    padding-bottom: 12px;
+    padding-bottom: 2px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -1818,14 +1891,14 @@ header .monochrome-truck .bottombwtn .actourservices p {
   .hammenu .logo {
     position: absolute;
   }
+  .hammenu .overlay-content {
+    top: 12%;
+  }
   .hammenu .overlay .closebtn {
     position: absolute;
-    top: -27px;
-    right: 6px;
+    top: -21px;
+    right: 18px;
     font-size: 52px;
-  }
-  .hammenu .overlay-content {
-    top: 18%;
   }
   header .monochrome-truck {
     overflow: hidden;
@@ -1953,12 +2026,18 @@ header .monochrome-truck .bottombwtn .actourservices p {
   }
   .hammenu .overlay .closebtn {
     position: absolute;
-    top: -27px;
-    right: 6px;
+    top: -22px;
+    right: 17px;
     font-size: 52px;
   }
   .hammenu .overlay-content {
-    top: 18%;
+    top: 11%;
+  }
+  .hammenu .closebtn {
+    position: absolute;
+    top: -21px;
+    right: 18px;
+    font-size: 52px;
   }
   header .monochrome-truck {
     overflow: hidden;
@@ -2182,7 +2261,7 @@ header .monochrome-truck .bottombwtn .actourservices p {
     font-size: 34px;
   }
 }
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1800px) {
   header .monochrome-truck .logo p {
     font-size: 25px;
   }
@@ -2201,16 +2280,16 @@ header .monochrome-truck .bottombwtn .actourservices p {
   #services h2 {
     font-size: 45px;
   }
-}
-#contact .head h2 {
-  font-size: 45px;
-}
-#contact .head p {
-  font-size: 22px;
-}
-#contact .twoforms .input-contact {
-  width: 49%;
-}
-#contact .form-message .textmessage {
-  width: 100%;
+  #contact .head h2 {
+    font-size: 45px;
+  }
+  #contact .head p {
+    font-size: 22px;
+  }
+  #contact .twoforms .input-contact {
+    width: 49%;
+  }
+  #contact .form-message .textmessage {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
